@@ -5,6 +5,7 @@ body{
     height: 600px;
     text-align: center;
     
+    
 }
 h1{
     padding-top: 25px;
@@ -46,7 +47,7 @@ p{
     color:black;
 
 }
-h2{
+h3{
     color: darkblue;
 }
 ol{
