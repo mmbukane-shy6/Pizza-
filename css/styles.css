@@ -4,10 +4,10 @@ body{
     background-repeat: no-repeat;
     height: 600px;
     text-align: center;
-
+    
 }
 h1{
-    padding-top: 20px;
+    padding-top: 25px;
 }
 ul{
     list-style-type: none;
@@ -34,9 +34,28 @@ li a:hover{
 }
 
 .pizza{
-    color: chartreuse;
+    color: black;
 }
 
 .shy{
     color: cornflowerblue;
+}
+p{
+    font-size: 20px;
+    padding-top: 20px;
+    color:black;
+
+}
+h2{
+    color: darkblue;
+}
+ol{
+    text-align: left;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+#pep{
+    display: none;
 }
