@@ -7,14 +7,14 @@ body{
 
 }
 h1{
-    padding-top: 100px;
+    padding-top: 20px;
 }
 ul{
     list-style-type: none;
     margin: 0px;
     padding: 0px;
     overflow: hidden;
-    background-color: blueviolet;
+    background-color: black;
 }
 li{
     float: left;
@@ -31,4 +31,12 @@ li a:hover{
 }
 .nav ul{
     width: 100%;
+}
+
+.pizza{
+    color: chartreuse;
+}
+
+.shy{
+    color: cornflowerblue;
 }
