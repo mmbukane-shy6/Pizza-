@@ -70,7 +70,7 @@
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <label for="size">CHOOSE SIZE:</label>
-                                    <select name="size" class="form-control" required>
+                                    <select name="size" class="form-control" id="size">
                                         <option value="650">Small @ 650 Ksh</option>
                                         <option value="950">medium @ 950 ksh</option>
                                         <option value="1100">Large @ 1100 Ksh</option>
@@ -78,7 +78,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="type">CHOOSE CRUST:</label>
-                                    <select name="crust" class="form-control">
+                                    <select name="crust" class="form-control" id="crust">
                                         <option value="300">Crispy @ 300</option>
                                         <option value="250">Stuffed @ 250</option>
                                         <option value="300">Gluten-free @ 300</option>
@@ -87,7 +87,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="type">CHOOSE TOPPINGS:</label>
-                                    <select name="top" class="form-control">
+                                    <select name="top" class="form-control" id="top">
                                         <option value="200">Pineapple @ 200 ksh</option>
                                         <option value="200">Mince @ 200 ksh</option>
                                         <option value="200">Macon @ 200 ksh</option>
@@ -95,7 +95,39 @@
                                         <option value="200">Sandwich beef @ 200 ksh</option>
                                     </select>
                                 </div>
-                                
+                                <div class="form-group">
+                                    <label for="type">QUANTITY:</label>
+                                    <select name="top" class="form-control" id="num">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                    </select>
+                                </div>
+                                <button class="btn btn-success mx-auto d-block submit" type="button" id="add"><strong>GET YOUR TOTAL</strong>
+                                </button> 
+                                <p class="alert alert-primary text-center" id="para"></p>
+                                <table class="table" id="table">
+                                    <thead>
+                                        <tr>
+                                            <th scope="row">Quantity</th>
+                                            <th scope="row">Size</th>
+                                            <th scope="row">Toppings</th>
+                                            <th scope="row">Crust</th>
+                        
+                                            <th scope="row">Totals</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="tbl"></tbody>
+                                    <tfoot>
+                                        <tr></tr>
+                                    </tfoot>
                             </div>
                         </div>
                     </form>
