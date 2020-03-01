@@ -40,3 +40,19 @@ add.addEventListener("click", function() {
     }
     results();
 })
+
+const checkout = document.getElementById("checkout")
+
+
+checkout.addEventListener("click", function(event) {
+    event.preventDefault()
+    const delivery = document.getElementById("check");
+    const alert = document.getElementById("alert");
+    const deliveryInput = document.getElementById("mess").value;
+
+    if (delivery.checked) {
+        alert.innerHTML = `Thank you for your purchase. Your order will be delivered at ${deliveryInput} for an extra 300 ksh charge`
+    }
+
+
+})
