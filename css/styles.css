@@ -54,7 +54,7 @@ ol{
     text-align: left;
 }
 img{
-    height: 200px;
+    height: 250px;
     width: 200px;
 }
 #pep {
@@ -66,6 +66,11 @@ img{
 #veg{
     display: none;
 }
+h5{
+    font-size: 18px;
+}
+
+
 /*.image {
     opacity: 1;
     display: block;
