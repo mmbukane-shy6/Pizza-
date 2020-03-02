@@ -10,7 +10,6 @@ $(document).ready(function () {
         $("#veg").toggle();
     });
 
-})
 const add = document.getElementById("add");
 
 add.addEventListener("click", function () {
@@ -55,4 +54,5 @@ checkout.addEventListener("click", function (event) {
     }
 
 
-})
+});
+});
