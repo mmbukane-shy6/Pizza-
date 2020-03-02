@@ -9,7 +9,7 @@ $(document).ready(function () {
     $(".veg").click(function () {
         $("#veg").toggle();
     });
-    pizza2.jpeg:1 
+    
 const add = document.getElementById("add");
 
 add.addEventListener("click", function () {
