@@ -22,3 +22,22 @@ This is a web application for Pizzar Restaurant, a high end restaurant that offe
 *Click Submit.
 
 *Wait for response from web application
+
+### BDD
+<img src="../img/pizza2.jpeg">
+
+### TECHNOLOGY USED
+*HTML
+
+*CSS
+
+*JAVA SCRIPT
+
+*JQUERY
+
+### LIVE LINK
+
+
+### CONTACT INFO
+
+*Email address:sheilaegeidza@gmail.com
