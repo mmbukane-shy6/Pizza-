@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function () {
     //toggle
     $(".pep").click(function () {
         $("#pep").toggle();
@@ -9,17 +9,17 @@ $(document).ready(function(){
     $(".veg").click(function () {
         $("#veg").toggle();
     });
-    
+
 })
 const add = document.getElementById("add");
 
-add.addEventListener("click", function() {
+add.addEventListener("click", function () {
     const size = parseInt(document.getElementById("size").value);
     const crust = parseInt(document.getElementById("crust").value);
     const topping = parseInt(document.getElementById("top").value);
     const quantity = parseInt(document.getElementById("num").value);
 
-    const results = function() {
+    const results = function () {
         const table = document.getElementById("table");
         const row = table.insertRow();
         const quantity1 = row.insertCell();
@@ -44,7 +44,7 @@ add.addEventListener("click", function() {
 const checkout = document.getElementById("checkout")
 
 
-checkout.addEventListener("click", function(event) {
+checkout.addEventListener("click", function (event) {
     event.preventDefault()
     const delivery = document.getElementById("check");
     const alert = document.getElementById("alert");
